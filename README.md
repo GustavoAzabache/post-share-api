@@ -96,11 +96,10 @@ cd post-share-api
 - `403 FORBIDDEN`: Usuario intenta modificar/eliminar recursos ajenos
 - `400 BAD REQUEST`: Datos inválidos en la solicitud
 
----
 
-🧪 Ejemplo de respuesta de error
+## 🧪 Ejemplo de respuesta de error
 
-Cuando buscas un trabajo que no existe:
+Cuando quieres usar un username que ya está en la base de datos:
 
 ```JSON
 {
