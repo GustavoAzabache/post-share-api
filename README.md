@@ -106,8 +106,7 @@ Cuando buscas un trabajo que no existe:
 {
   "status": 409,
   "error": "Conflicto de username",
-  "message": "El username ingresado ya está siendo usado.
-El username ingresado ya está siendo usado.",
+  "message": "El username ingresado ya está siendo usado.",
   "timestamp": "2025-07-06T14:45:34.326154513"
 }
 ```
