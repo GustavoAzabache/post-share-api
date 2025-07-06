@@ -13,6 +13,7 @@ public interface UserMapper {
 
     @Mapping(target = "id", ignore = true)
     @Mapping(target = "role", ignore = true)
+    @Mapping(target = "posts", ignore = true)
     UserEntity toEntity(UserRequestDTO userRequestDTO);
 
     @Mapping(source = "role.name", target = "roleName")
@@ -20,6 +21,7 @@ public interface UserMapper {
 
     @Mapping(target = "id", ignore = true)
     @Mapping(target = "role", ignore = true)
+    @Mapping(target = "posts", ignore = true)
     void updateEntityFromDTO(UserRequestDTO userRequestDTO, @MappingTarget UserEntity userEntity);
 
 }
